@@ -35,7 +35,7 @@ public class Driver {
     }//getDriver ends here
     //    create a closeDriver method to close the driver
     public static void closeDriver(){
-//        quit the driver id it is pointing chromedriver, firefoxdriver, edgedriver,....
+//        quit the driver id it is pointing chromeDriver, fireFoxDriver, edgeDriver,....
         if (driver!=null){
             driver.quit();
             driver=null;

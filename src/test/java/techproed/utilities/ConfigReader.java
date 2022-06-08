@@ -20,7 +20,7 @@ public class ConfigReader {
     private static Properties properties;
     static {
         //path of the configuration file
-        String path= ".properties";
+        String path= "Configuration.properties";
         try {
             //Opening configuration.properties file using FileInputStream
             FileInputStream fileInputStream = new FileInputStream(path);

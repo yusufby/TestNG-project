@@ -10,20 +10,19 @@ import techproed.utilities.Driver;
 //FindBy annotation comes from selenium to locate the elements
 
 public class AddressBookLoginPage {
-    @FindBy(
-            id = "session_email"
-    )
-    public WebElement username;
-    @FindBy(
-            id = "session_password"
-    )
-    public WebElement password;
-    @FindBy(
-            xpath = "//input[@name='commit']"
-    )
-    public WebElement loginButton;
-
+    //PageFactory is used for initializing the page object.it comes from selenium.
+    //Ech page class should have this in the class.
     public AddressBookLoginPage() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
+
+    @FindBy(id = "session_email")
+    public WebElement username;
+
+    @FindBy(id = "session_password")
+    public WebElement password;
+
+    @FindBy(xpath = "//input[@name='commit']")
+    public WebElement loginButton;
+   
 }

@@ -68,9 +68,9 @@ public class Day15_Annotations {
 
     /*
      * @Test : creates test case/method
-     * @BeforeMethod: Same as @BeforeMethod in JUNIT.
+     * @BeforeMethod: Same as @Before in JUNIT.
      * Runs before each method. Runs after each @TEST annotation
-     * @AfterMethod : Same as @AfterMethod in JUNIT.
+     * @AfterMethod : Same as @After in JUNIT.
      * Runs after each method. Runs after each @Test annotation
      * @Ignore : To skip a test case
      * @Test(enabled = false) : to disable a test case. Similar to Ignore
