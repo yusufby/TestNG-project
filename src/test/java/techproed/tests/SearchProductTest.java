@@ -15,13 +15,13 @@ public class SearchProductTest {
         Driver.getDriver().get(ConfigReader.getProperty("automation_exercise_url"));
         Assert.assertEquals(Driver.getDriver().getCurrentUrl(), "https://www.automationexercise.com/");
         this.searchProductPage.product.click();
-        Assert.assertTrue(this.searchProductPage.allProducts.isDisplayed());
-        this.searchProductPage.searchBox.sendKeys(new CharSequence[]{"Blue Top"});
-        this.searchProductPage.searchButton.click();
-        Assert.assertTrue(this.searchProductPage.searchedProductsText.isDisplayed());
-        this.searchProductPage.viewProduct.click();
-        Assert.assertTrue(this.searchProductPage.blueTopName.isDisplayed());
-        Assert.assertTrue(this.searchProductPage.category.getText().contains("Women"));
-        Assert.assertEquals(this.searchProductPage.brand_polo.getText(), "Brand: Polo");
+        Assert.assertTrue(searchProductPage.allProducts.isDisplayed());
+        searchProductPage.searchBox.sendKeys("Blue Top");
+        searchProductPage.searchButton.click();
+        Assert.assertTrue(searchProductPage.searchedProductsText.isDisplayed());
+        searchProductPage.viewProduct.click();
+        Assert.assertTrue(searchProductPage.blueTopName.isDisplayed());
+        Assert.assertTrue(searchProductPage.category.getText().contains("Women"));
+        Assert.assertEquals(searchProductPage.brand_polo.getText(), "Brand: Polo");
     }
 }

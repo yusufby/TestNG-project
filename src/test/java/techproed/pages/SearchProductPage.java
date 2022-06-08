@@ -6,44 +6,43 @@ import org.openqa.selenium.support.PageFactory;
 import techproed.utilities.Driver;
 
 public class SearchProductPage {
+   /*1. Launch browser
+2. Navigate to url 'http://automationexercise.com'
+3. Verify that home page is visible successfully
+4. Click on 'Products' button
+5. Verify user is navigated to ALL PRODUCTS page successfully
+6. Enter product name in search input and click search button
+7. Verify 'SEARCHED PRODUCTS' is visible
+8. Verify all the products related to search are visible*/
+
     public SearchProductPage() {
      PageFactory.initElements(Driver.getDriver(), this);}
 
         @FindBy(xpath = "//a[@href='/products']")
         public WebElement product;
 
-        @FindBy(
-                xpath = "//h2[@class='title text-center']"
-        )
+        @FindBy(xpath = "//h2[@class='title text-center']")
         public WebElement allProducts;
-        @FindBy(
-                xpath = "//input[@id='search_product']"
-        )
+
+        @FindBy(xpath = "//input[@id='search_product']")
         public WebElement searchBox;
-        @FindBy(
-                xpath = "//button[@id='submit_search']"
-        )
+
+        @FindBy(xpath = "//button[@id='submit_search']")
         public WebElement searchButton;
 
-        @FindBy(
-                xpath = "//h2[@class='title text-center']"
-        )
+        @FindBy(xpath = "//h2[@class='title text-center']")
         public WebElement searchedProductsText;
-        @FindBy(
-                linkText = "View Product"
-        )
+
+        @FindBy(linkText = "View Product")
         public WebElement viewProduct;
-        @FindBy(
-                xpath = "(//h2)[3]"
-        )
+
+        @FindBy(xpath = "(//h2)[3]")
         public WebElement blueTopName;
-        @FindBy(
-                xpath = "(//p)[3]"
-        )
+
+        @FindBy(xpath = "(//p)[3]")
         public WebElement category;
-        @FindBy(
-                xpath = "(//p)[6]"
-        )
+
+        @FindBy(xpath = "(//p)[6]")
         public WebElement brand_polo;
 
 }
