@@ -14,7 +14,7 @@ public class SearchProductTest {
     public void searchProductsTest() {
         Driver.getDriver().get(ConfigReader.getProperty("automation_exercise_url"));
         Assert.assertEquals(Driver.getDriver().getCurrentUrl(), "https://www.automationexercise.com/");
-        this.searchProductPage.product.click();
+        searchProductPage.product.click();
         Assert.assertTrue(searchProductPage.allProducts.isDisplayed());
         searchProductPage.searchBox.sendKeys("Blue Top");
         searchProductPage.searchButton.click();

@@ -4,11 +4,16 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import techproed.utilities.Driver;
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by FernFlower decompiler)
+
 
 //FindBy annotation comes from selenium to locate the elements
 
+
+/*What is page object model with example?*/
+//Page Object Model, also known as POM, is a design pattern in Selenium
+// that creates an object repository for storing all web elements.
+// It is useful in reducing code duplication and improves test case maintenance.
+//In Page Object Model, consider each web page of an application as a class file
 
 /*What is smoke test?*/
 //is done to make sure the application is up and running
@@ -56,7 +61,11 @@ import techproed.utilities.Driver;
 //there are about 500 test cases in our regression suite
 
 /*Does all of your test cases are automated?*/
-
+// almost of all of them automated. There might be a few that need manual intervention that we did
+//not automate.but i can say that more than 90 percent of our regression tests cases are automated
+/*Stories that I can not automate*/
+// we had some stories that is high level security.tech lead tests them because he has access.
+//We have some manual intervention required on some stories, that can not be automated.
 
 
 public class AddressBookLoginPage {
