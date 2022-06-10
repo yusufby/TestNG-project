@@ -22,7 +22,7 @@ public class Day16_NegativeLogin {
         String fakeUsername=faker.internet().emailAddress();
         String fakePassword=faker.internet().password();
         System.out.println(fakeUsername);
-        System.out.println(fakeUsername);
+        System.out.println(fakePassword);
         homePage.homeLoginButton.click();
         loginPage.username.sendKeys(fakeUsername);
         loginPage.password.sendKeys(fakePassword);

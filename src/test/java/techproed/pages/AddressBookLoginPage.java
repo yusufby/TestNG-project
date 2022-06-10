@@ -40,6 +40,9 @@ import techproed.utilities.Driver;
 /*Does all of your smokes test cases automated?*/
 //Yes we automated all smoke test cases.
 
+/*Who decides the smoke test?*/
+//Test lead.
+
 /*REGRESSION ?*/
 //It means we run all major functionalities.
 //this is a comprehensive testing
@@ -67,6 +70,8 @@ import techproed.utilities.Driver;
 // we had some stories that is high level security.tech lead tests them because he has access.
 //We have some manual intervention required on some stories, that can not be automated.
 
+/*Who decides the regression test?*/
+//Test lead
 
 public class AddressBookLoginPage {
     //PageFactory is used for initializing the page object.it comes from selenium.
