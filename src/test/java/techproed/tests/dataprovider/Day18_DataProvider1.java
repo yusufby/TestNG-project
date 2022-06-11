@@ -1,6 +1,5 @@
 package techproed.tests.dataprovider;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 public class Day18_DataProvider1 {
     /*
      * DATA PROVIDER: is used to get list of data in TestNG
@@ -14,14 +13,14 @@ public class Day18_DataProvider1 {
      * We can give alternative name using name ="alternative name"
      *
      * */
-
+//GET THE DATA FROM 2D ARRAY. THE BASIC ONE
     @DataProvider(name = "customer-login-data")
     public Object[][] dataProviderMethod(){
 
-        Object[][] customerCredentials ={
+        Object[][] customerCredentials ={  //2 dimensional array
                 {"customer@bluerentalcars.com","12345"},
                 {"customer1@bluerentalcars.com","12346"},
-                {"customer2@bluerentalcars.com","12347"},
+                {"customer2@bluerental cars.com","12347"},
                 {"customer3@bluerentalcars.com","12348"}
         };
         return customerCredentials;

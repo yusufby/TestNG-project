@@ -13,6 +13,7 @@ import techproed.utilities.ReusableMethods;
 
 import java.io.IOException;
 public class Day18_DataProvider3 {
+    /*GET THE DATA FROM EXCEL USING, ExcelUtil */
     @DataProvider(name = "customer-login-data")
     public Object[][] dataProviderMethod(){
 //        This method will be used to get the data from excel sheet

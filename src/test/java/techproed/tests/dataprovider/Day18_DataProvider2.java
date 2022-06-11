@@ -1,8 +1,6 @@
 package techproed.tests.dataprovider;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 import techproed.pages.DefaultPage;
 import techproed.pages.HomePage;
 import techproed.pages.LoginPage;
@@ -12,6 +10,7 @@ import techproed.utilities.ReusableMethods;
 
 import java.io.IOException;
 public class Day18_DataProvider2 {
+    //GET THE DATA IN JSON FORMAT.
     @DataProvider(name = "customer-login-data")
     public Object[][] dataProviderMethod(){
         Object[][] customerCredentials ={
@@ -49,8 +48,10 @@ public class Day18_DataProvider2 {
 
         }
     }
-    //FLOW OF THE DATA 2d method returns the data -> : DataProvider looks for hte test method whose name iscustomer-login-data
-//    -> Finds the Test method -> Passes the data to the test methods' parameter in order -> use that parameters in the test method
+    //FLOW OF THE DATA 2d method returns the data -> DataProvider looks for hte test method
+    // whose name is customer-login-data
+//    -> Finds the Test method -> Passes the data to the test methods' parameter in order ->
+//    use that parameters in the test method
     @Test(dataProvider = "customer-login-data")
     public void customerLogin(String userName, String password) throws IOException {
         login();

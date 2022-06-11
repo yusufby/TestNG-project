@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Blue Rental Test Suite" verbose="1" >
+    <test name="Smoke test">
+        <packages>
+            <package name="techproed.tests.smoketests"/>
+            <package name="techproed.tests.excelautomation"/>
+        </packages>
+    </test>
+</suite>
+        <!--this is package level configuration which is above.-->
+
+<!--make sure to save file after change
+suite> test > groups > packages > classes  > Methods
+-->
