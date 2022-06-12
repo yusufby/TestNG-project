@@ -5,11 +5,11 @@ import techproed.pages.AddressBookLoginPage;
 import techproed.utilities.ConfigReader;
 import techproed.utilities.Driver;
 
-public class Day15_AddressBookLoginPage {
+public class Day15_AddressBookLoginTest {
     //Page object
     AddressBookLoginPage addressBookLoginPage = new AddressBookLoginPage();
 
-    @Test
+    @Test(groups = "smoke-group-1") //(groups = "smoke-group-1") use this group to run specific methods
     public void loginTest() {
         Driver.getDriver().get(ConfigReader.getProperty("address_url"));
         // addressBookLoginPage.username.sendKeys("testtechproed@gmail.com");

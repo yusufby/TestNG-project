@@ -11,7 +11,7 @@ public class Day16_PositiveLogin {
     LoginPage loginPage;
     DefaultPage defaultPage;
 
-    @Test
+    @Test(groups = "smoke-group-1")
     public void adminLogin(){
         Driver.getDriver().get(ConfigReader.getProperty("app_url"));
         homePage = new HomePage();
@@ -40,3 +40,9 @@ public class Day16_PositiveLogin {
         Driver.closeDriver();
     }
 }
+/*Parallel testing ?*/
+//we use testNG xml files to do parallel testing
+//parallel: for running in parallel
+//thread-count(execution flow): number of thread to run in parallel testing
+// is done for reducing the execution time
+//it is especially used when running multiples tests that takes long time

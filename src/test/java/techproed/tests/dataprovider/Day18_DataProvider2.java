@@ -73,6 +73,18 @@ public class Day18_DataProvider2 {
         Driver.closeDriver();
     }
 
+/*What is testNG xml file?*/
+    //Running TestNG cases
+    //Group TestNG cases
+    /* Running Specific test groups*/
+     //==> run specific methods
+        //===>include : run only included methods
+        //===>exclude : run all except excluded method
+    //==> run specific classes
+    //==> run specific packages
+    //==> run specific test groups
+        //==>use groups annotation in tests methods and configure xml file
+    //Running parallel test cases
 
 
 }
