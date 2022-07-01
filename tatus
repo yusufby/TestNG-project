@@ -1,0 +1,53 @@
+[33mcommit 1417a44c5a79542c50bd804d35ec2a5f2289f72d[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/yusuf[m[33m, [m[1;31morigin/main[m[33m, [m[1;32myusuf[m[33m)[m
+Author: Yusuf Bayram <yusufbayram19891989@gmail.com>
+Date:   Sun Jun 12 07:58:48 2022 +0100
+
+    parallel testing
+
+[33mcommit 84b65529f019bcf068068c609717d625d8a18949[m
+Author: Yusuf Bayram <yusufbayram19891989@gmail.com>
+Date:   Sat Jun 11 06:54:25 2022 +0100
+
+    regression test
+
+[33mcommit 8b24353a6f1e053eea5d18795429a6e18d478950[m
+Author: Yusuf Bayram <yusufbayram19891989@gmail.com>
+Date:   Fri Jun 10 17:24:21 2022 +0100
+
+    utils
+
+[33mcommit 701c39453a3636b37e7d0c2666b1d6e1b9fc6bcf[m
+Author: Yusuf Bayram <yusufbayram19891989@gmail.com>
+Date:   Thu Jun 9 05:05:57 2022 +0100
+
+    Practice
+
+[33mcommit 9808852d5c3e895965ba39ff01b5cc04905b5d3d[m
+Author: Yusuf Bayram <yusufbayram19891989@gmail.com>
+Date:   Wed Jun 8 12:25:42 2022 +0100
+
+    smoke test and regression test
+
+[33mcommit ca97715ca416c53dcd870345e5301fe5802fb199[m
+Author: Yusuf Bayram <yusufbayram19891989@gmail.com>
+Date:   Wed Jun 8 10:14:54 2022 +0100
+
+    search product test
+
+[33mcommit e486d116ecd893c263937d8d5d3a4d455b2348ec[m
+Author: Yusuf Bayram <yusufbayram19891989@gmail.com>
+Date:   Mon Jun 6 17:18:18 2022 +0100
+
+    page object model
+
+[33mcommit b198ca284fafa544f843cfc797b6fc961bbf903d[m
+Author: Yusuf Bayram <yusufbayram19891989@gmail.com>
+Date:   Mon Jun 6 09:25:42 2022 +0100
+
+    page object model
+
+[33mcommit be42ecb39fac18303d7bf1471f4c3577e1a9222b[m
+Author: Yusuf Bayram <yusufbayram19891989@gmail.com>
+Date:   Sat Jun 4 22:30:19 2022 +0100
+
+    first commit

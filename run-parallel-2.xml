@@ -1,5 +1,6 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="Parallel test suite" parallel="methods" thread-count="2" verbose="1" >
+    <!--the best one is to choose parallel : method to avoid mistakes-->
     <test name="Parallel Test">
         <!--        Runs class specific classes in parallel
         WHAT TO RUN: specific classes
